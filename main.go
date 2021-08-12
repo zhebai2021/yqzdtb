@@ -15,7 +15,7 @@ func main() {
 }
 
 func Report() {
-	cookie := Getcookie("学号", "身份证号码后六位") //这里更换成你的学号和密码
+	cookie := Getcookie("2008610671", "290913") //这里更换成你的学号和密码
 	postdata := Getinfo(cookie)
 	Postdata(cookie, postdata)
 }
